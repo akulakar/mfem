@@ -498,7 +498,7 @@ endif()
 
 # ADIOS2 for parallel I/O
 if (MFEM_USE_ADIOS2)
-   find_package(ADIOS2 REQUIRED)
+   find_package(ADIOS2 CONFIG REQUIRED)
 endif()
 
 # MKL CPardiso
